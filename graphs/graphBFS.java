@@ -15,6 +15,7 @@ public class graphBFS {
         for(int i=0; i<graph.length; i++){
             graph[i] = new ArrayList<>();
         }
+        //Create edges
         graph[0].add(new Edge(0,1,1));
         graph[0].add(new Edge(0,2,1));
 
@@ -84,3 +85,4 @@ public class graphBFS {
         }
 
 }
+//O(n) -> Linear func , no.of vertices O(V+E) - Adj List.   O(v)2 - Matrix
